@@ -6,6 +6,7 @@ import java.sql.*;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
+import org.apache.log4j.*;
 
 /**
  * Access users in the user table.
@@ -14,7 +15,16 @@ import java.util.List;
  */
 public class UserData {
 
+    private final Logger logger = Logger.getLogger(this.getClass());
+
     public List<User> getAllUsers(String users_last_name) {
+
+        logger.trace("Trace Message!");
+        logger.debug("Debug Message!");
+        logger.info("Info Message!");
+        logger.warn("Warn Message!");
+        logger.error("Error Message!");
+        logger.fatal("Fatal Message!");
 
         List<User> users = new ArrayList<User>();
         Database database = Database.getInstance();
