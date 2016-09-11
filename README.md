@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # User Display Exercise
 
 This exercise will provide you with practice with IntelliJ, Tomee+, MySqL and Maven, while providing a refresher
@@ -60,4 +60,3 @@ To begin using this project:
     should include id, first name, last name, and age. At minimum, provide a last name search. Some TODOs have been added to help you get started.
 =======
 # Exercise-1
->>>>>>> f22445f5ba0bc4208003cc2c0eb95f2fc080d872
